@@ -1,0 +1,109 @@
+Bài 1: Tạo cấu trúc HTML chuẩn
+
+Tạo một file HTML có:
+
+Thẻ <!DOCTYPE html>
+
+Thẻ <html>, <head>, <body>
+
+Tiêu đề trang là: Giới thiệu bản thân
+
+Bài 2: Sử dụng thẻ Heading
+
+Trong phần <body>:
+
+Dùng h1 hiển thị: HỌC HTML CƠ BẢN
+
+Dùng h2 hiển thị: Buổi 1
+
+Dùng h3 hiển thị: Các thẻ HTML đầu tiên
+
+Bài 3: Hiển thị nhiều cấp tiêu đề
+
+Hiển thị họ tên sinh viên bằng đầy đủ 6 thẻ:
+
+h1 → h6
+
+Nội dung mỗi thẻ là: Tên sinh viên
+
+Bài 4: Tạo đoạn văn
+
+Tạo một đoạn văn (<p>) giới thiệu:
+
+Tên
+
+Ngành học
+
+Trường đang theo học
+(viết thành 1 đoạn văn duy nhất)
+
+Bài 5: Xuống dòng trong đoạn văn
+
+Trong 1 thẻ <p>:
+
+Dòng 1: Họ tên
+
+Dòng 2: Ngành học
+
+Dòng 3: Sở thích
+
+👉 Bắt buộc dùng thẻ <br>
+
+Bài 6: Kết hợp đoạn văn và đường kẻ
+
+Hiển thị tiêu đề: THÔNG TIN SINH VIÊN
+
+Bên dưới là 1 đoạn văn giới thiệu
+
+Sau đoạn văn thêm đường kẻ ngang bằng <hr>
+
+Bài 7: Hiển thị hình ảnh
+
+Chèn một hình ảnh:
+
+Tên file: avatar.png
+
+Chiều rộng: 300px
+
+Không cần thuộc tính khác
+
+Bài 8: Trang giới thiệu cá nhân đơn giản
+
+Tạo trang HTML gồm:
+
+h1: Giới thiệu bản thân
+
+p: Một đoạn văn mô tả ngắn
+
+<hr>
+
+Một hình ảnh đại diện (rộng 250px)
+
+Bài 9: Trang tin ngắn
+
+Tạo trang HTML mô phỏng một tin tức:
+
+h1: Tiêu đề tin
+
+p: Nội dung tin (có ít nhất 2 lần xuống dòng bằng <br>)
+
+<hr>
+
+Hình ảnh minh họa
+
+Bài 10 (TỔNG HỢP): Trang cá nhân
+
+Tạo trang HTML hoàn chỉnh gồm:
+
+Tiêu đề trang: Trang cá nhân
+
+h1: Tên sinh viên
+
+h2: Ngành học
+
+p: Giới thiệu bản thân (có <br>)
+
+<hr>
+
+1 hình ảnh (rộng 300px)
+......
