@@ -37,4 +37,8 @@ for($i = 0;$i < 10; $i ++) {
     }
 }
 // hiển thị các số chẵn từ 0 -> 10 
+// tính tổng các số từ 1 -> 10 
+// khai báo $n = 5 tính 5! = 1*2*3*4*5 
+// tìm và hiển thị ra các ước của $n 
+//....,,,,,,
 ?>
