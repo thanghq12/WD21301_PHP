@@ -18,6 +18,13 @@ foreach($mangSV as $key => $value)
     echo $value["ten_sv"]."-".$value["nam_sinh"]."<br>";
 } 
 
+//tao 1 mang lien hop 2 chieu product gom cac thong tin sau 
+// ten_sp,gia,mau_sac
+// hien thi thong tin product ra table nhuw sau
+// ten_sp|gia|mau_sac|xep loai 
+// gia >= 5000 => dat to mau vang 
+// gia < 5000 => re to mau xanh 
+echo "Test tesst"
 ?>
 <table border="1"> 
     <tr>
