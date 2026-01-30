@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Card Game</title>
+    <style>
+        .board {
+            display: grid;
+            grid-template-columns: repeat(4, 120px);
+            gap: 15px;
+        }
+        .card {
+            border: 2px solid #333;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            background: #f2f2f2;
+            font-weight: bold;
+        }
+        .card.active {
+            background: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+<h2>🎯 Ném bóng – Mở thẻ HTML</h2>
+
+<div class="board">
+    <div class="card" onclick="openCard(this, '<div>')">&lt;div&gt;</div>
+    <div class="card" onclick="openCard(this, '<p>')">&lt;p&gt;</div>
+    <div class="card" onclick="openCard(this, '<img>')">&lt;img&gt;</div>
+    <div class="card" onclick="openCard(this, '<a>')">&lt;a&gt;</div>
+    <div class="card" onclick="openCard(this, '<h1>')">&lt;h1&gt;</div>
+    <div class="card" onclick="openCard(this, '<ul>')">&lt;ul&gt;</div>
+</div>
+
+<p><b>Thẻ đã mở:</b> <span id="result"></span></p>
+
+<script>
+function openCard(el, tag) {
+    el.classList.add("active");
+    document.getElementById("result").innerHTML += tag + " ";
+}
+</script>
+
+</body>
+</html>
